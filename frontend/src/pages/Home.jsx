@@ -55,8 +55,8 @@ function Home() {
           <option key={cat.id} value={cat.id}>{cat.name}</option>
         ))}
       </select>
-      {loading && <div style={{color: '#fff', marginLeft: 60}}>Загрузка...</div>}
-      {error && <div style={{color: 'red', marginLeft: 60}}>Ошибка: {error}</div>}
+      {loading && <div className="home-loading">Загрузка...</div>}
+      {error && <div className="home-error">Ошибка: {error}</div>}
       <div className="books-list">
         {filteredBooks.map(book => (
           <Book key={book.id} book={book} />

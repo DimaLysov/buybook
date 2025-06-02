@@ -48,3 +48,15 @@
   margin: 0;
   padding: 0 40px;
 }
+.home-loading {
+  color: #fff;
+  margin-left: 60px;
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+}
+.home-error {
+  color: red;
+  margin-left: 60px;
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+}
